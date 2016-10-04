@@ -13,13 +13,13 @@ var resetGame = function() {
 };
 
 var trumpWins = function(){
-    $('#winner-box').html("TRUMP WINS", "<button id='reset'>PLAY AGAIN!?</button>");
-    $('#winner-box').append("<button id='reset'>PLAY AGAIN!?</button>");
+    $('#winner-box').html("TRUMP WINS", "<button id='reset'>PLAY AGAIN</button>");
+    $('#winner-box').append("<button id='reset'>PLAY AGAIN</button>");
 };
 
 var clintonWins = function() {
     $('#winner-box').html("HALLELUJAH HILLDAWG WINS");
-    $('#winner-box').append("<button id='reset'>PLAY AGAIN!?</button>");
+    $('#winner-box').append("<button id='reset'>PLAY AGAIN</button>");
 };
 
 var gamePlay = function (){
