@@ -51,7 +51,7 @@ var gamePlay = function (){
         checkColumnWinner();
         checkDiagonalWinner();
     });
-    $('#boxC').click(function(){
+    $('#boxC').one("click", function(){
         if(turn % 2 === 0){
             $('#boxC').append(trumpImage);
             gameBoard[0][2] = 0;
@@ -65,7 +65,7 @@ var gamePlay = function (){
         checkColumnWinner();
         checkDiagonalWinner();
     });
-    $('#boxD').click(function(){
+    $('#boxD').one("click", function(){
         if(turn % 2 === 0){
             $('#boxD').append(trumpImage);
             gameBoard[1][0] = 0;
@@ -79,7 +79,7 @@ var gamePlay = function (){
         checkColumnWinner();
         checkDiagonalWinner();
     });
-    $('#boxE').click(function(){
+    $('#boxE').one("click", function(){
         if(turn % 2 === 0){
             $('#boxE').append(trumpImage);
             gameBoard[1][1] = 0;
@@ -93,7 +93,7 @@ var gamePlay = function (){
         checkColumnWinner();
         checkDiagonalWinner();
     });
-    $('#boxF').click(function(){
+    $('#boxF').one("click", function(){
         if(turn % 2 === 0){
             $('#boxF').append(trumpImage);
             gameBoard[1][2] = 0;
@@ -107,7 +107,7 @@ var gamePlay = function (){
         checkColumnWinner();
         checkDiagonalWinner();
     });
-    $('#boxG').click(function(){
+    $('#boxG').one("click", function(){
         if(turn % 2 === 0){
             $('#boxG').append(trumpImage);
             gameBoard[2][0] = 0;
@@ -121,7 +121,7 @@ var gamePlay = function (){
         checkColumnWinner();
         checkDiagonalWinner();
     });
-    $('#boxH').click(function(){
+    $('#boxH').one("click", function(){
         if(turn % 2 === 0){
             $('#boxH').append(trumpImage);
             gameBoard[2][1] = 0;
@@ -135,7 +135,7 @@ var gamePlay = function (){
         checkColumnWinner();
         checkDiagonalWinner();
     });
-    $('#boxI').click(function(){
+    $('#boxI').one("click", function(){
         if(turn % 2 === 0){
             $('#boxI').append(trumpImage);
             gameBoard[2][2] = 0;
