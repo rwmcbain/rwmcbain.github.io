@@ -1,0 +1,95 @@
+//variables
+$bgColor: #02266C;
+$fave-font: 'Open Sans', 'Helvetica', sans-serif;
+$boxHeight: 18.750em;
+$topMargin: 1.250em;
+$bottomMargin: 3.750em;
+$boxColor: rgba(255,255,255,0.2);
+$responsiveHeight: 7.813em;
+$candidates: 92%;
+
+body {
+	font-family: $fave-font;
+	color: white;
+	background-color: $bgColor;
+	margin-top: 50px;
+	margin-bottom: $bottomMargin;
+}
+
+.main-container {
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+  	max-width: 400px;
+}
+
+.boxes {
+	background-color: $boxColor;
+	margin-top: $topMargin;
+	text-align: center;
+}
+
+.boxes:hover {
+	opacity: 0.5;
+}
+
+#instructions {
+	margin-top: $topMargin;
+}
+
+.trump, .clinton {
+	width: $candidates;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .boxes {
+    height: 125px;
+    width: 30%;
+    margin-right: 20px;
+  }
+
+  .boxes:last-child {
+  	margin-right: 0;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .boxes {
+    height: $responsiveHeight;
+    margin-right: 0px;
+    
+  }
+}
+
+@media (min-width: 650px) {
+   .boxes {
+    height: $responsiveHeight;
+    margin-right: 0px;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+   .boxes {
+    height: $responsiveHeight;
+    margin-right: 0px;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+   .boxes {
+    height: $responsiveHeight;
+    margin-right: 0px;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+   .boxes {
+    height: $responsiveHeight;
+    margin-right: 0px;
+  }
+}
