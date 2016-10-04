@@ -15,13 +15,13 @@ var resetGame = function() {
 
 var trumpWins = function () {
     $('#winner-box').html("TRUMP WINS");
-    $('#winner-box').append("<button id='reset'>PLAY AGAIN!?</button>");
+    $('#winner-box').append("<button id='reset'>PLAY AGAIN</button>");
     return true;
 };
 
 var clintonWins = function () {
-    $('#winner-box').html("HALLELUJAH HILLDAWG WINS");
-    $('#winner-box').append("<button id='reset'>PLAY AGAIN!?</button>");
+    $('#winner-box').html("HILLARY WINS");
+    $('#winner-box').append("<button id='reset'>PLAY AGAIN</button>");
     return true;
 };
 
@@ -321,7 +321,7 @@ var boardSum = function(){
 var checkTie = function(){
     if((boardSum() === 5)){
         $('#winner-box').html("AMERICA WINS!<br/>");
-        $('#winner-box').append("<button id='reset'>PLAY AGAIN!?</button>");
+        $('#winner-box').append("<button id='reset'>PLAY AGAIN</button>");
     }
     resetGame();
 };
