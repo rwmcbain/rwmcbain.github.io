@@ -23,7 +23,7 @@ var clintonWins = function() {
 };
 
 var gamePlay = function (){
-    $('#boxA').click(function(){
+    $('#boxA').one("click", function(){
         if(turn % 2 === 0){
             $('#boxA').append(trumpImage);
             gameBoard[0][0] = 0;
@@ -37,7 +37,7 @@ var gamePlay = function (){
         checkColumnWinner();
         checkDiagonalWinner();
     });
-    $('#boxB').click(function(){
+    $('#boxB').one("click", function(){
         if(turn % 2 === 0){
             $('#boxB').append(trumpImage);
             gameBoard[0][1] = 0;
