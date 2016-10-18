@@ -1,0 +1,194 @@
+* {
+    margin:0;
+    padding:0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 20%;
+}
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: auto;
+    float: inherit;
+    clear: both;
+    padding: 16px;
+    font-weight: bold;
+    text-shadow: 3px 3px #212121;
+}
+h2 {
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: .04em .04em #212121;
+
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+}
+
+body {
+    font-size: 1em;
+    background-color: #212121;
+}
+.headerdiv {
+    width: 100%;
+    background-color: #212121;
+    height: 20%;
+    border-radius: 0px;
+
+}
+#left {
+    width: 50%;
+    background: url('http://i.imgur.com/iykavmv.jpg');
+    height: 60%;
+    float: left;
+    font-family: 'Lobster', cursive;
+    border-radius: 0px;
+    font-size: 3em;
+    margin-top: .7em;
+    margin-bottom: 1.2em;
+}
+
+/*#right:hover {
+     background: url('http://i.imgur.com/oeIalov.jpg');
+     background-size: cover;
+    
+}
+#left:hover {
+    background: url('http://i.imgur.com/iykavmv.jpg');
+    background-size: cover;
+
+}
+*/
+#right {
+    width: 50%;
+    background: url('http://i.imgur.com/oeIalov.jpg');
+    background-size: cover;
+    height: 60%;
+    float: left;
+    font-family: 'Lobster', cursive;
+    border-radius: 0px;
+    font-size: 3em;
+    margin-top: .7em;
+    margin-bottom: 1.2em;
+}
+footer {
+    width: 100%;
+    height: 2em;
+    background-color: #424242;
+    clear: both;
+/*    position: fixed;
+*/    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 39%;
+    padding: 1px;
+    padding-top: 8px;
+    font-weight: bold;
+    color: white;
+/*    vertical-align: middle;
+*/}
+nav {
+    font-size: 1.2em;
+    padding: 0;
+    position: inherit;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    height: 1.4em;
+    background-color: #424242;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    text-align: center;
+}
+nav a {
+    padding: 4px 35px;
+    color: white;
+    text-decoration: none;
+    position: inherit;
+}
+a {
+    font-size: .8em;
+    color: white;
+    text-decoration: none;
+
+}
+section  {
+    padding-top: 160px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    color: #ecf0f1;
+}
+nav a:hover {
+    color: white;
+    background-color: #212121;
+    height: 1em;
+    font-weight: bolder;
+}
+a:hover {
+    color: white;
+    font-weight: bolder;
+    width: 50%;
+}
+.fade-in.one {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  animation-delay: .1s;
+}
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  
+  -webkit-animation:fadeIn ease-in 1; 
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards; value (opacity: 1)
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+@media all and (max-width : 650px) {
+
+div#left, div#right{
+    width: 100%;
+    margin: 0;
+}
+}
+@media all and (max-width : 768px) {
+
+div#left, div#right{
+    width: 100%;
+    margin: 0;
+}
+}
+
