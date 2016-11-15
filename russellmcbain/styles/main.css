@@ -87,19 +87,18 @@ body {
 }
 footer {
     width: 100%;
-    height: 2em;
-    background-color: #424242;
+    height: 2.5em;
+    // background-color: #424242;
     clear: both;
-/*    position: fixed;
-*/    text-align: center;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin-top: 39%;
+    // margin-top: 39%;
+    position: relative;
     padding: 1px;
     padding-top: 8px;
     font-weight: bold;
     color: white;
-/*    vertical-align: middle;
-*/}
+}
 nav {
     font-size: 1.2em;
     padding: 0;
