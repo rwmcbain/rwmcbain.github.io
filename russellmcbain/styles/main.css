@@ -52,6 +52,7 @@ body {
     background-color: #212121;
     height: 20%;
     border-radius: 0px;
+    margin-top: 22px;
 }
 #left {
     width: 50%;
@@ -63,6 +64,9 @@ body {
     font-size: 3em;
     margin-top: .7em;
     margin-bottom: 1.2em;
+}
+.linkedin{
+    text-align: center;
 }
 
 /*#right:hover {
@@ -187,7 +191,7 @@ div#left, div#right{
 .headerdiv{
     width: 100%;
     margin: 0;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 }
 @media all and (max-width : 768px) {
@@ -200,7 +204,11 @@ div#left, div#right{
 .headerdiv{
     width: 100%;
     margin: 0;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
+}
+#centerme{
+    text-align: center;
+    margin-top: 10px;
 }
 

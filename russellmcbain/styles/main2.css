@@ -3,14 +3,24 @@ body {
 	text-align: center;
 }
 #pic1{
-float: center;
-margin-bottom: 40px;
-margin-top: 40px;
+	float: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 #pic2{
-float: center;
+	float: center;
 }
+// h1 {
+// 	font-size: 2.8em;
+//     text-align: center;
+//     // font-family: 'Montserrat', sans-serif;
+//         font-family: 'Lobster', cursive;
+
+//     color: white;
+//     text-shadow: .04em .04em #212121;
+// }
+
 .fade-in.one {
   -webkit-animation-delay: 0.1s;
   -moz-animation-delay: 0.1s;
