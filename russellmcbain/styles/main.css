@@ -49,7 +49,6 @@ body {
     background-color: #212121;
     height: 20%;
     border-radius: 0px;
-
 }
 #left {
     width: 50%;
@@ -183,12 +182,23 @@ div#left, div#right{
     width: 100%;
     margin: 0;
 }
+.headerdiv{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 80px;
+}
 }
 @media all and (max-width : 768px) {
 
 div#left, div#right{
     width: 100%;
     margin: 0;
+
+}
+.headerdiv{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 80px;
 }
 }
 
