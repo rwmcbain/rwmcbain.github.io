@@ -40,7 +40,7 @@ p {
     font-size: 1em;
 }
 #para{
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 body {
@@ -63,7 +63,7 @@ body {
     border-radius: 0px;
     font-size: 3em;
     margin-top: .7em;
-    margin-bottom: 1.2em;
+    // margin-bottom: 1.2em;
 }
 .linkedin{
     text-align: center;
@@ -90,7 +90,7 @@ body {
     border-radius: 0px;
     font-size: 3em;
     margin-top: .7em;
-    margin-bottom: 1.2em;
+    // margin-bottom: 1.2em;
 }
 footer {
     width: 100%;
@@ -99,7 +99,7 @@ footer {
     clear: both;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    // margin-top: 39%;
+    margin-top: 14%;
     position: relative;
     padding: 1px;
     padding-top: 8px;
