@@ -84,7 +84,9 @@ img {
   }
 .descriptions {
   margin-left: 0px;
-  margin-bottom: 6%;
+  margin-bottom: 6%;}
+  #marginss {
+  margin-bottom: 20%;
 }
 }
 
