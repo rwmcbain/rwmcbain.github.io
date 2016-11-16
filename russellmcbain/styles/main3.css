@@ -3,10 +3,10 @@ body {
 }
 #aboutme {
 	font-size: 3.5em;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
     margin-top: 20%;
+    text-align: center;
 }
 nav {
     font-size: 1.2em;
@@ -52,3 +52,29 @@ html, body {
     padding: 0;
 }
 
+#container {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    font-size: 40px;
+}
+#centerabout {
+    margin: 40px;
+}
+@media all and (max-width : 650px) {
+#centerabout {
+    margin: 10px;}
+}
+@media all and (max-width : 768px) {
+#centerabout {
+    margin: 8px;}    
+}

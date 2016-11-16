@@ -183,6 +183,8 @@ div#left, div#right{
 }
 .section1 {
     margin-top: 0%; }
+nav a {
+     padding: 0px 12px;}
 }
 @media all and (max-width : 768px) {
 
@@ -198,6 +200,8 @@ div#left, div#right{
 }
 .section1 {
     margin-top: 0%; }
+nav a {
+    padding: 0px 12px;}
 }
 
 
