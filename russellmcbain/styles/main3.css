@@ -21,7 +21,7 @@ nav {
 li {
     display: inline-block;
     text-align: center;
-    float: right;
+    float: left;
 }
 nav a {
     padding: 4px 35px;
