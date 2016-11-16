@@ -31,13 +31,15 @@ h2 {
     text-shadow: .04em .04em #212121;
 
 }
-
 h3 {
     font-size: 1em;
 }
 
 p {
     font-size: 1em;
+}
+.section1 {
+    margin-top: 10%;
 }
 #para{
     margin-top: 6px;
@@ -197,6 +199,9 @@ div#left, div#right{
     margin: 0;
     margin-bottom: 100px;
 }
+.section1 {
+    margin-top: 0%;
+}
 }
 @media all and (max-width : 768px) {
 
@@ -209,6 +214,9 @@ div#left, div#right{
     width: 100%;
     margin: 0;
     margin-bottom: 100px;
+}
+.section1 {
+    margin-top: 0%;
 }
 }
 
