@@ -39,7 +39,7 @@ body {
   -moz-animation-duration:1s;
   animation-duration:1s;
 }
-@media all and (max-width : 650px) {
+@media all and (max-width : 567px) {
 
 div#pic1, div#pic2{
     width: 100%;
@@ -51,7 +51,19 @@ img {
 	margin-bottom: 6%;
 }
 #first{
-	margin-top:60px; }
+	margin-top:60px; 
+}
+p {
+  width: 350px;
+  margin-left: 0px;
+  float: right;
+  margin-right: -45%;
+  margin-bottom: 10%;
+  }
+.descriptions {
+  margin-left: 0px;
+  margin-bottom: 6%;
+}
 }
 @media all and (max-width : 768px) {
 
@@ -63,7 +75,19 @@ img {
 	width: 100%;
 	height: 245px;
 	margin-bottom: 6%; }
+  p {
+  width: 290px;
+  margin-left: 0px;
+  float: right;
+  margin-right: -24%;
+  margin-bottom: 10%;
+  }
+.descriptions {
+  margin-left: 0px;
+  margin-bottom: 6%;
 }
+}
+
 nav {
     font-size: 1.2em;
     padding: 0;
@@ -107,6 +131,16 @@ html, body {
     margin: 0;
     padding: 0;
 }
+p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 
+}
+.descriptions {
+  // margin: 10px 300px 0px 300px;
+  width: 50%;
+  margin-left: 26%;
+  margin-bottom: 4%;
+}
 
 

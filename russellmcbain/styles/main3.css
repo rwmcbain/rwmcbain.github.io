@@ -5,7 +5,7 @@ body {
 	font-size: 3.5em;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    margin-top: 20%;
+    margin-top: 14%;
     text-align: center;
 }
 nav {
@@ -51,7 +51,6 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
 #container {
     text-align: center;
 }
@@ -73,8 +72,36 @@ h4 {
 @media all and (max-width : 650px) {
 #centerabout {
     margin: 10px;}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    font-size: 40px;}
+img {
+    width: 100%;
+    margin-top: 14%;}
 }
 @media all and (max-width : 768px) {
 #centerabout {
-    margin: 8px;}    
+    margin: 8px;} 
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 19px;
+}
+h4 {
+    font-size: 40px;} 
+img {
+ width: 100%;
+ margin-top: 14%;}
 }
