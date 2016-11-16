@@ -47,6 +47,10 @@ body {
     font-size: 1em;
     background-color: #212121;
 }
+#centerme{
+    text-align: center;
+    margin-top: 30px;
+}
 .headerdiv {
     width: 100%;
     background-color: #212121;
@@ -207,8 +211,5 @@ div#left, div#right{
     margin-bottom: 100px;
 }
 }
-#centerme{
-    text-align: center;
-    margin-top: 10px;
-}
+
 
