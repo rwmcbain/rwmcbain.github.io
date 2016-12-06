@@ -1,3 +1,4 @@
+
 body {
 	background: #212121;
 	text-align: right;
@@ -14,20 +15,31 @@ body {
 #first {
   margin-top: 8%;
   float: left;
-  border-radius: 4px;
+  border-radius: 6px;
+  margin-right: 2%;
+  box-shadow: 2px 2px 12px  #131418;
+  margin-left: 3%;
 }
 
 #second {
   margin-top: 8%;
   clear: left;
   float: left;
-  border-radius: 4px;
+  border-radius: 6px;
+  margin-right: 2%;
+  box-shadow: 2px 2px 12px  #131418;
+  margin-left: 3%;
+
 }
 #third {
   margin-top: 8%;
   clear: left;
   float: left;
-  border-radius: 4px;
+  border-radius: 6px;
+  margin-right: 2%;
+  box-shadow: 2px 2px 12px  #131418;
+  margin-left: 3%;
+
 }
 #starcatcher {
   font-size: 18px;
@@ -66,11 +78,9 @@ div#pic1, div#pic2{
     width: 100%;
     margin: 0;
 }
-// img {
-// 	width: 100%;
-// 	height: 245px;
-// 	margin-bottom: 6%;
-// }
+img {
+ margin-right: 1%;
+}
 #first{
   width: 100%;
 	margin-top:60px; 
@@ -124,9 +134,7 @@ body {
     text-align: center;
     width: 100%;
 }
-h5 {
-  margin-top: 0;
-}
+
 }
 nav {
     font-size: 1.2em;
@@ -159,7 +167,11 @@ nav a:hover {
 a:hover {
     color: white;
     font-weight: bolder;
-    width: 50%;
+    width: 50%;   
+}
+button:hover {
+  // background-color: rgba(0,0,0,.1);
+  font-weight: bolder;
 }
 * {
     margin:0;
@@ -184,12 +196,12 @@ h1:hover {
   font-weight: bolder;
 }
 h2 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
 }
 h3 {
-  font-size: .8rem;
+  font-size: .7rem;
   color: white;
   font-family: 'Montserrat', sans-serif; 
 }
@@ -200,15 +212,16 @@ h4 {
 h5 {
   margin-bottom: 15%;
   color: #212121;
+  margin-top: 0;
 }
 h6 {
   font-size: 1.2rem;
+  font-weight: bolder;
   color: white;
   font-family: 'Montserrat', sans-serif; 
- 
 }
 .descriptions {
-  width: 95%;
+  width: 100%;
   margin-bottom: 4%;
   margin-top: 2%;
   margin-right: 6%;
@@ -223,7 +236,24 @@ h6 {
 { 
 .descriptons {
   width: 100%;
-  }}
+  margin: 0;
+  }
+#first{
+  margin-left: 0;
+  margin-right: 0;
+}
+#second{
+  margin-left: 0;
+  margin-right: 0;
+}
+#third{
+  margin-left: 0;
+  margin-right: 0;
+}
+h4{
+  margin-bottom: 0;
+}
+}
 
 
 #para{
@@ -241,15 +271,46 @@ h6 {
   margin: 2%;
 }
 button {
-    background-color: #212121; /* Green */
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2.8rem;
-    border: .1px white solid;
-    border-radius: 4px;
-    font-family: 'Montserrat', sans-serif; 
+  background-color: #212121;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.8rem;
+  border: .1px white solid;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif; 
+  box-shadow: 2px 2px 12px  #131418;
+  position: relative;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.1s ease-in;
+  -o-transition:      0.1s ease-in;
+  -ms-transition:     0.1s ease-in;
+  -moz-transition:    0.1s ease-in;
+  -webkit-transition: 0.1s ease-in;
+}
 
+.fill:hover {
+color: #212121;
+}
+
+.fill:before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+  top: 0;
 }

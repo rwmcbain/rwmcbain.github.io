@@ -119,7 +119,9 @@ a {
     font-size: 1em;
     color: white;
     text-decoration: none;
-
+}
+.photos {
+    font-size: 1.6em;
 }
 section  {
     padding-top: 160px;
