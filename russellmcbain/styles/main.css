@@ -187,6 +187,9 @@ div#left, div#right{
     margin-top: 0%; }
 nav a {
      padding: 0px 12px;}
+     .photos {
+    font-size: 1.3em;
+}
 }
 @media all and (max-width : 768px) {
 
