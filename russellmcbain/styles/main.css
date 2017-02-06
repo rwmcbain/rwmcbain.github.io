@@ -67,6 +67,7 @@ body {
     border-radius: 0px;
     font-size: 3em;
     margin-top: .7em;
+    background-size: cover;
 }
 .linkedin{
     text-align: center;
